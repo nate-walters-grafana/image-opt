@@ -1,0 +1,32 @@
+# Hugo default output directory
+/public
+
+
+# VScode and extensions
+/.vscrof
+/.vscode
+
+## OS Files
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
+
+node_modules
+build
+dist/*
+dist-assets
+dist-docs
+dist-static
+
+awsconfig
+.idea
+.netlify
+.env
+.password
+.htpasswd
+build.conf
