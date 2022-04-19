@@ -10,7 +10,7 @@
   <body>
     <h1>Hugo / Netlify CMS Image Optimization Test</h1>
     <ul>
-      {{ range (where .Pages "Section" "blog") }}
+      {{ range first 10 .Site.RegularPages }}
       <li>
         <a href="{{ .RelPermalink }}">
           {{ .Title }}
