@@ -1,0 +1,22 @@
+{
+  "name": "image-opt",
+  "version": "1.0.0",
+  "description": "```git clone https://github.com/nate-walters-grafana/image-opt```",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nate-walters-grafana/image-opt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nate-walters-grafana/image-opt/issues"
+  },
+  "homepage": "https://github.com/nate-walters-grafana/image-opt#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
